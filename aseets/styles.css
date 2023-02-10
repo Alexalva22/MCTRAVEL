@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Source+Code+Pro:wght@600&display=swap');
+
+body {
+    margin: 0;
+   height: 100rem;
+    background-color: aqua;
+box-sizing: border-box;
+}
+
+
+
+
+/* -----------------------------------MENU OCULTO --------------------------------------------*/
+img {
+    width: 100%;
+}
+
+.main-menu {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    align-items: center;
+    transition: transform 0.3s;
+    transform: translateY(-100%);
+}
+
+.main-menu--show {
+    transform: translateY(0);
+}
+
+.toggle-menu {
+    position: absolute;
+    right: 1.5rem;
+    top: 2rem;
+    cursor: pointer;
+    width: 40px;
+    z-index: 1;
+
+}
+
+.main-menu_item {
+    padding: 1em;
+}
+
+.main-menu_link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* -----------LOGO--------------------------- */
+
+.logo {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+}
+
+.logo img {
+    width: 15rem;
+}
+
+/* -------------FONDO PRIMER SECCION--------  */
+
+
+.espacio{
+    height: 8rem;
+}
+/* -------TARJETA NOSOTROS------- */
+.card{
+   
+    background-color: #80ed99;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    /* padding-top: 3rem; */
+    /* padding-bottom: 3rem; */
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+text-align: center;
+}
+.card h2{
+    margin: 0;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #22577a;
+    padding-top: 3rem;
+    
+}
+.card-p{
+    font-size: 1.3rem;
+    font-family: 'Inconsolata', monospace;
+    margin: 1rem;
+}
+.card img{
+    position: absolute;
+    width: 80%;
+    top: 10rem;
+}
+.page1{
+    height: 100vh;
+}
