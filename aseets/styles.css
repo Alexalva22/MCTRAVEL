@@ -2,9 +2,9 @@
 
 body {
     margin: 0;
-   height: 100rem;
+    height: 100rem;
     background-color: aqua;
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -16,7 +16,7 @@ img {
 }
 
 .main-menu {
-   
+
     list-style: none;
     margin-top: 0;
     padding-bottom: 1rem;
@@ -25,8 +25,8 @@ img {
     font-family: 'Inconsolata', monospace;
     display: flex;
     flex-direction: column;
-    background: rgb(34,87,122);
-background: linear-gradient(90deg, rgba(34,87,122,1) 0%, rgba(56,163,165,1) 49%, rgba(87,204,153,1) 100%);
+    background: rgb(34, 87, 122);
+    background: linear-gradient(90deg, rgba(34, 87, 122, 1) 0%, rgba(56, 163, 165, 1) 49%, rgba(87, 204, 153, 1) 100%);
     align-items: center;
     transition: transform 0.3s;
     transform: translateY(-100%);
@@ -71,14 +71,15 @@ background: linear-gradient(90deg, rgba(34,87,122,1) 0%, rgba(56,163,165,1) 49%,
 /* -------------FONDO PRIMER SECCION--------  */
 
 
-.espacio{
+.espacio {
     height: 6rem;
 }
+
 /* -------TARJETA NOSOTROS------- */
-.card{
-   
-    background: rgb(87,204,153);
-    background: radial-gradient(circle, rgba(87,204,153,1) 0%, rgba(128,237,153,1) 100%);   
+.card {
+
+    background: rgb(87, 204, 153);
+    background: radial-gradient(circle, rgba(87, 204, 153, 1) 0%, rgba(128, 237, 153, 1) 100%);
     margin-right: 3rem;
     margin-left: 3rem;
     /* padding-top: 3rem; */
@@ -86,12 +87,13 @@ background: linear-gradient(90deg, rgba(34,87,122,1) 0%, rgba(56,163,165,1) 49%,
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
-text-align: center;
-box-shadow: 15px 20px 26px -7px rgba(0,0,0,0.86);
--webkit-box-shadow: 15px 20px 26px -7px rgba(0,0,0,0.86);
--moz-box-shadow: 15px 20px 26px -7px rgba(0,0,0,0.86);
+    text-align: center;
+    box-shadow: 15px 20px 26px -7px rgba(0, 0, 0, 0.86);
+    -webkit-box-shadow: 15px 20px 26px -7px rgba(0, 0, 0, 0.86);
+    -moz-box-shadow: 15px 20px 26px -7px rgba(0, 0, 0, 0.86);
 }
-.card h2{
+
+.card h2 {
     margin: 0;
     margin-bottom: 2rem;
     line-height: 3rem;
@@ -99,22 +101,104 @@ box-shadow: 15px 20px 26px -7px rgba(0,0,0,0.86);
     font-family: 'Montserrat', sans-serif;
     color: #22577a;
     padding-top: 3rem;
-    
+
 }
-.card-p{
+
+.card-p {
     font-size: 1.3rem;
     font-family: 'Inconsolata', monospace;
     margin: 1rem;
 }
-.card img{
+
+.card img {
     position: absolute;
     width: 80%;
     top: 6rem;
 }
-.page1{
-    height: 100vh;
+
+.page1 {
+    /* height: 100vh; */
     background-image: url(tarea.jpg);
     background-position: center;
     background-size: ccover;
     background-repeat: no-repeat;
+}
+
+/* --------------UNIDADES-------------- */
+.btn-unidades {
+    text-align: center;
+    height: 5rem;
+    padding-top: 3rem;
+}
+.unidades{
+    background: rgb(56,163,165);
+    background: radial-gradient(circle, rgba(56,163,165,1) 0%, rgba(34,87,122,1) 100%);
+    padding-bottom: 3rem;
+}
+.btn-unidades button {
+    font-size: 2rem;
+    border-radius: 5px;
+    border-style: none;
+    height: 3rem;
+    box-shadow: 15px 20px 26px -7px rgba(0, 0, 0, 0.86);
+    -webkit-box-shadow: 15px 20px 26px -7px rgba(0, 0, 0, 0.86);
+    -moz-box-shadow: 15px 20px 26px -7px rgba(0, 0, 0, 0.86);
+    font-family: 'Montserrat', sans-serif;
+    color: #22577a;
+    font-weight: 600;
+    background: rgb(87, 204, 153);
+    background: radial-gradient(circle, rgba(87, 204, 153, 1) 0%, rgba(128, 237, 153, 1) 100%);
+}
+.espacio2{
+    height: 10rem;
+}
+.card2{
+    background: rgb(87, 204, 153);
+    background: radial-gradient(circle, rgba(87, 204, 153, 1) 0%, rgba(128, 237, 153, 1) 100%);
+    margin-right: 2rem;
+    margin-left: 3rem;
+    /* padding-top: 3rem; */
+    padding-bottom: 3rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 15px 20px 26px -7px rgba(0, 0, 0, 0.86);
+    -webkit-box-shadow: 15px 20px 26px -7px rgba(0, 0, 0, 0.86);
+    -moz-box-shadow: 15px 20px 26px -7px rgba(0, 0, 0, 0.86);
+}
+/* .card2 img {
+    position:absolute;
+    width: 80%;
+    bottom: -12rem;
+}
+.andareimg{
+    position:absolute;
+    width: 80%;
+    bottom: -54rem !important;
+} */
+.card2 img{
+    margin: 0;
+}
+.andareimg{
+   margin-bottom: -2rem;
+}
+.card2 h2 {
+    margin: 1rem;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #22577a;
+    padding-top: 1rem;
+
+}
+.card2 ul{
+    font-size: 1.3rem;
+    font-family: 'Inconsolata', monospace;
+    list-style: none;
+    margin: 0 !important;  
+    padding-left: 0;
+    line-height: 2rem;
+
 }
