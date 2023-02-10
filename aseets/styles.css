@@ -2,8 +2,9 @@
 
 body {
     margin: 0;
-    height: 100rem;
-    background-color: aqua;
+   height: 200rem;
+   background: rgb(56,163,165);
+   background: radial-gradient(circle, rgba(56,163,165,1) 0%, rgba(34,87,122,1) 100%);
     box-sizing: border-box;
 }
 
@@ -72,7 +73,7 @@ img {
 
 
 .espacio {
-    height: 6rem;
+    height: 10rem;
 }
 
 /* -------TARJETA NOSOTROS------- */
@@ -113,14 +114,14 @@ img {
 .card img {
     position: absolute;
     width: 80%;
-    top: 6rem;
+    top:12rem;
 }
 
 .page1 {
     /* height: 100vh; */
     background-image: url(tarea.jpg);
     background-position: center;
-    background-size: ccover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -150,11 +151,10 @@ img {
     background: radial-gradient(circle, rgba(87, 204, 153, 1) 0%, rgba(128, 237, 153, 1) 100%);
 }
 .espacio2{
-    height: 10rem;
+    height: 7rem;
 }
 .card2{
-    background: rgb(87, 204, 153);
-    background: radial-gradient(circle, rgba(87, 204, 153, 1) 0%, rgba(128, 237, 153, 1) 100%);
+    background-image: url(fondocards.png);
     margin-right: 2rem;
     margin-left: 3rem;
     /* padding-top: 3rem; */
@@ -167,16 +167,7 @@ img {
     -webkit-box-shadow: 15px 20px 26px -7px rgba(0, 0, 0, 0.86);
     -moz-box-shadow: 15px 20px 26px -7px rgba(0, 0, 0, 0.86);
 }
-/* .card2 img {
-    position:absolute;
-    width: 80%;
-    bottom: -12rem;
-}
-.andareimg{
-    position:absolute;
-    width: 80%;
-    bottom: -54rem !important;
-} */
+
 .card2 img{
     margin: 0;
 }
@@ -201,4 +192,35 @@ img {
     padding-left: 0;
     line-height: 2rem;
 
+}
+
+
+/* -------------TERCERA SECCION CONTACTO----------------- */
+
+.espacio3{
+    height: 3rem;
+    
+}
+.contacto h2{
+    margin: 1rem;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #80ed99;
+    padding-top: 1rem;
+}
+.contacto{
+    text-align: center;
+}
+.contac-container{
+    color: #80ed99;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo-gmail{
+    display: flex;
+    width: 4rem;
 }

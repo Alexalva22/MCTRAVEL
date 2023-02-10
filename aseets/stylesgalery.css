@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    height: 100rem;
+    background-image: url(construccion.png);
+}
+.container img{
+    width: 100%;
+}
