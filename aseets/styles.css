@@ -237,7 +237,8 @@ img {
     font-family: 'Montserrat', sans-serif;
 
 }
-.mail img{
+.iconos-dev{
+    display: flex;
     width: 2rem;
 }
 .mail{
