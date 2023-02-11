@@ -2,9 +2,9 @@
 
 body {
     margin: 0;
-   /* height: 200rem; */
-   background: rgb(56,163,165);
-   background: radial-gradient(circle, rgba(56,163,165,1) 0%, rgba(34,87,122,1) 100%);
+   height: auto;
+    background: rgb(56, 163, 165);
+    background: radial-gradient(circle, rgba(56, 163, 165, 1) 0%, rgba(34, 87, 122, 1) 100%);
     box-sizing: border-box;
 }
 
@@ -114,7 +114,7 @@ img {
 .card img {
     position: absolute;
     width: 80%;
-    top:12rem;
+    top: 12rem;
 }
 
 .page1 {
@@ -131,11 +131,13 @@ img {
     height: 5rem;
     padding-top: 3rem;
 }
-.unidades{
-    background: rgb(56,163,165);
-    background: radial-gradient(circle, rgba(56,163,165,1) 0%, rgba(34,87,122,1) 100%);
+
+.unidades {
+    background: rgb(56, 163, 165);
+    background: radial-gradient(circle, rgba(56, 163, 165, 1) 0%, rgba(34, 87, 122, 1) 100%);
     padding-bottom: 3rem;
 }
+
 .btn-unidades button {
     font-size: 2rem;
     border-radius: 5px;
@@ -150,10 +152,12 @@ img {
     background: rgb(87, 204, 153);
     background: radial-gradient(circle, rgba(87, 204, 153, 1) 0%, rgba(128, 237, 153, 1) 100%);
 }
-.espacio2{
+
+.espacio2 {
     height: 7rem;
 }
-.card2{
+
+.card2 {
     background-image: url(fondocards.png);
     margin-right: 2rem;
     margin-left: 3rem;
@@ -168,12 +172,14 @@ img {
     -moz-box-shadow: 15px 20px 26px -7px rgba(0, 0, 0, 0.86);
 }
 
-.card2 img{
+.card2 img {
     margin: 0;
 }
-.andareimg{
-   margin-bottom: -2rem;
+
+.andareimg {
+    margin-bottom: -2rem;
 }
+
 .card2 h2 {
     margin: 1rem;
     margin-bottom: 1rem;
@@ -184,11 +190,12 @@ img {
     padding-top: 1rem;
 
 }
-.card2 ul{
+
+.card2 ul {
     font-size: 1.3rem;
     font-family: 'Inconsolata', monospace;
     list-style: none;
-    margin: 0 !important;  
+    margin: 0 !important;
     padding-left: 0;
     line-height: 2rem;
 
@@ -197,11 +204,12 @@ img {
 
 /* -------------TERCERA SECCION CONTACTO----------------- */
 
-.espacio3{
+.espacio3 {
     height: 3rem;
-    
+
 }
-.contacto h2{
+
+.contacto h2 {
     margin: 1rem;
     margin-bottom: 1rem;
     line-height: 3rem;
@@ -210,10 +218,12 @@ img {
     color: #80ed99;
     padding-top: 1rem;
 }
-.contacto{
+
+.contacto {
     text-align: center;
 }
-.contac-container{
+
+.contac-container {
     color: #80ed99;
     display: flex;
     flex-direction: row;
@@ -221,27 +231,32 @@ img {
     align-items: center;
     margin: 1.5rem;
     font-family: 'Montserrat', sans-serif;
-  
+
 }
-.logo-gmail{
+
+.logo-gmail {
     display: flex;
     width: 4rem;
 }
-#whats{
+
+#whats {
     text-decoration: none;
 }
-.contact-dev{
+
+.contact-dev {
     border-top-left-radius: 3rem;
     border-top-right-radius: 3rem;
-    background-color:#c7f9cc ;
+    background-color: #c7f9cc;
     font-family: 'Montserrat', sans-serif;
 
 }
-.iconos-dev{
+
+.iconos-dev {
     display: flex;
     width: 2rem;
 }
-.mail{
+
+.mail {
     display: flex;
     align-items: center;
     text-align: center;
